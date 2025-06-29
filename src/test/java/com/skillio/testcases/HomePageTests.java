@@ -81,6 +81,11 @@ public class HomePageTests extends TestBase{
 		homepage.selectToCityName("Krakow");
 	}
 	
+	@Test
+	public void mySecondTestCase() {
+		System.out.println("Second Test Case");
+	}
+	
 }
 
 
