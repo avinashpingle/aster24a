@@ -67,6 +67,7 @@ public class Keyword {
 
 	public void quitAllWindows() {
 		driver.quit();
+		System.out.println("Closing all windows");
 	}
 
 	public static void clickOnElement(By locator) {
